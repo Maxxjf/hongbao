@@ -17,7 +17,6 @@ public abstract class BaseAccessbilityJob implements AccessbilityJob {
     public Context getContext() {
         return service.getApplicationContext();
     }
-//
     public Config getConfig() {
         return service.getConfig();
     }
