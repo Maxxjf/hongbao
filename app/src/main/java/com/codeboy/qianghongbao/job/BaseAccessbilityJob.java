@@ -8,7 +8,7 @@ import com.codeboy.qianghongbao.QiangHongBaoService;
 public abstract class BaseAccessbilityJob implements AccessbilityJob {
 
     private QiangHongBaoService service;
-
+//
     @Override
     public void onCreateJob(QiangHongBaoService service) {
         this.service = service;
