@@ -4,11 +4,10 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * <p>Created 16/1/15 下午10:59.</p>
- * <p><a href="mailto:codeboy2013@gmail.com">Email:codeboy2013@gmail.com</a></p>
- * <p><a href="http://www.happycodeboy.com">LeonLee Blog</a></p>
+ * <p>Created 16/12/16 上午1:16.</p>
+ * <p><a href="mailto:841100358@qq.com">Email:841100358@qq.com</a></p>
  *
- * @author LeonLee
+ * @author Max
  */
 public class Config {
 

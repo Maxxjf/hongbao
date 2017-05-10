@@ -16,7 +16,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/wechatpay_qr"/>
+        android:src="@drawable/money"/>
 
     <TextView
         android:layout_width="wrap_content"

@@ -30,7 +30,12 @@ import com.codeboy.qianghongbao.job.WechatAccessbilityJob;
 import com.codeboy.qianghongbao.util.BitmapUtils;
 
 import java.io.File;
-
+/**
+ * <p>Created 16/12/16 上午1:16.</p>
+ * <p><a href="mailto:841100358@qq.com">Email:841100358@qq.com</a></p>
+ *
+ * @author Max
+ */
 /**
  * 抢红包主界面
  */
@@ -84,6 +89,7 @@ public class MainActivity extends BaseSettingsActivity {
             if(Config.ACTION_QIANGHONGBAO_SERVICE_CONNECT.equals(action)) {
                 if (mTipsDialog != null) {
                     mTipsDialog.dismiss();
+                    isServiceRun=true;
                 }
             } else if(Config.ACTION_QIANGHONGBAO_SERVICE_DISCONNECT.equals(action)) {
                 showOpenAccessibilityServiceDialog();
@@ -98,11 +104,11 @@ public class MainActivity extends BaseSettingsActivity {
             }
         }
     };
-
+        boolean isServiceRun=false;
     @Override
     protected void onResume() {
         super.onResume();
-        if(QiangHongBaoService.isRunning()) {
+        if(isServiceRun) {
             if(mTipsDialog != null) {
                 mTipsDialog.dismiss();
             }
@@ -237,7 +243,7 @@ public class MainActivity extends BaseSettingsActivity {
 
             @Override
             public boolean onLongClick(View v) {
-                File output = new File(android.os.Environment.getExternalStorageDirectory(), "codeboy_wechatpay_qr.jpg");
+                File output = new File(android.os.Environment.getExternalStorageDirectory(), "max.jpg");
                 if(!output.exists()) {
                     Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.wechatpay_qr);
                     BitmapUtils.saveBitmap(MainActivity.this, output, bitmap);

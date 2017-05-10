@@ -20,8 +20,6 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * <p>Created by LeonLee on 15/2/17 下午10:25.</p>
- * <p><a href="mailto:codeboy2013@163.com">Email:codeboy2013@163.com</a></p>
  *
  * 抢红包外挂服务
  */
@@ -33,7 +31,7 @@ public class QiangHongBaoService extends AccessibilityService {
             WechatAccessbilityJob.class,
     };
 
-    private static QiangHongBaoService service;
+    public static QiangHongBaoService service;
 
     private List<AccessbilityJob> mAccessbilityJobs;
     private HashMap<String, AccessbilityJob> mPkgAccessbilityJobMap;
@@ -145,6 +143,7 @@ public class QiangHongBaoService extends AccessibilityService {
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     public static boolean isRunning() {
         if(service == null) {
+            Log.d("max","ser"+service);
             return false;
         }
         AccessibilityManager accessibilityManager = (AccessibilityManager) service.getSystemService(Context.ACCESSIBILITY_SERVICE);

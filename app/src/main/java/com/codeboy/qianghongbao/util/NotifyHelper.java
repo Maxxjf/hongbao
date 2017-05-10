@@ -13,11 +13,10 @@ import com.codeboy.qianghongbao.Config;
 import java.util.Calendar;
 
 /**
- * <p>Created 16/2/5 下午9:48.</p>
- * <p><a href="mailto:codeboy2013@gmail.com">Email:codeboy2013@gmail.com</a></p>
- * <p><a href="http://www.happycodeboy.com">LeonLee Blog</a></p>
+ * <p>Created 16/12/16 上午1:16.</p>
+ * <p><a href="mailto:841100358@qq.com">Email:841100358@qq.com</a></p>
  *
- * @author LeonLee
+ * @author Max
  */
 public class NotifyHelper {
 

@@ -7,13 +7,11 @@ import android.os.Build;
 import android.service.notification.NotificationListenerService;
 import android.service.notification.StatusBarNotification;
 import android.util.Log;
-
 /**
- * <p>Created 16/2/4 下午11:16.</p>
- * <p><a href="mailto:codeboy2013@gmail.com">Email:codeboy2013@gmail.com</a></p>
- * <p><a href="http://www.happycodeboy.com">LeonLee Blog</a></p>
+ * <p>Created 16/12/16 上午1:16.</p>
+ * <p><a href="mailto:841100358@qq.com">Email:841100358@qq.com</a></p>
  *
- * @author LeonLee
+ * @author Max
  */
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR2)
 public class QHBNotificationService extends NotificationListenerService {

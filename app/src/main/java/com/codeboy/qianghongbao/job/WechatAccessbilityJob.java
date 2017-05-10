@@ -26,7 +26,12 @@ import com.codeboy.qianghongbao.util.AccessibilityHelper;
 import com.codeboy.qianghongbao.util.NotifyHelper;
 
 import java.util.List;
-
+/**
+ * <p>Created 16/12/16 上午1:16.</p>
+ * <p><a href="mailto:841100358@qq.com">Email:841100358@qq.com</a></p>
+ *
+ * @author Max
+ */
 public class WechatAccessbilityJob extends BaseAccessbilityJob {
 
     private static final String TAG = "WechatAccessbilityJob";

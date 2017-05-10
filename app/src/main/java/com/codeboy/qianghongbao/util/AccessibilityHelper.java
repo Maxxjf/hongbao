@@ -9,11 +9,10 @@ import java.lang.reflect.Field;
 import java.util.List;
 
 /**
- * <p>Created 16/2/4 上午9:49.</p>
- * <p><a href="mailto:730395591@qq.com">Email:730395591@qq.com</a></p>
- * <p><a href="http://www.happycodeboy.com">LeonLee Blog</a></p>
+ * <p>Created 16/12/16 上午1:16.</p>
+ * <p><a href="mailto:841100358@qq.com">Email:841100358@qq.com</a></p>
  *
- * @author LeonLee
+ * @author Max
  */
 public final class AccessibilityHelper {
 
